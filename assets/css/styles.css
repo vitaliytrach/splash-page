@@ -1,6 +1,7 @@
 body {
-    background-color: salmon;
+    background-color: forestgreen;
     margin: 0px;
+    color: white;
 }
 
 a {
@@ -13,8 +14,13 @@ h1 {
     font-size: 30px;
 }
 
+h3 {
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
 nav {
-    background-color: forestgreen;
+    background-color: #2b4244;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -23,7 +29,7 @@ nav {
 }
 
 footer {
-    background-color: forestgreen;
+    background-color: #2b4244;
     display: flex;
     justify-content: center;
     position: absolute;
@@ -55,4 +61,27 @@ footer {
     display:flex;
     flex-direction: column;
     align-items: center;
+}
+
+#container-2 {
+    height: 272px;
+    background-color: #82866e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    border-top-width: 5px;
+    border-top-color: darkgreen;
+}
+
+#container-3 {
+    width: 600px;
+    height: 150px;
+    background-color: darkgreen;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
